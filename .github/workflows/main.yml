@@ -9,6 +9,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+      issues: read
+      pull-requests: read
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -31,3 +36,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docusaurus/build
+          user_name: github-actions[bot]
+          user_email: github-actions[bot]@users.noreply.github.com
