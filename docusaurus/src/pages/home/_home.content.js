@@ -2,36 +2,32 @@ import React from 'react';
 
 export default {
   page: {
-    title: 'Strapi’s documentation',
-    description: 'Get set up in minutes to build any projects in hours instead of weeks.',
+    title: 'AquaBera’s documentation',
+    description: 'Automate and optimize your crypto liquidity provision with AquaBera.',
   },
   carousel: [
     {
       backgroundImgSrc: require('@site/static/img/assets/home/carousel-background--cloud.png').default,
       variant: 'cloud',
-      title: 'Strapi Cloud',
+      title: 'AquaBera App',
       description: (
         <>
           {'Learn more on the '}
-          <a href="https://strapi.io/cloud" target="_blank">product page</a>
-          {', or start a '}
-          <a href="https://cloud.strapi.io/" target="_blank">free trial</a> today!
+          <a href="http://www.aquabera.com" target="_blank">product page</a>.
         </>
       ),
       button: {
-        label: 'Strapi Cloud docs',
+        label: 'AquaBera App docs',
         decorative: '☁️',
         to: '/cloud/intro',
       },
     },
     {
-      title: 'Can’t wait to use Strapi?',
+      title: 'Can’t wait to use AquaBera?',
       description: (
         <>
           {'If demos are more your thing, we have a '}
-          <a href="https://youtu.be/h9vETeRiulY" target="_blank">video demo</a>
-          {', or you can request a '}
-          <a href="https://strapi.io/demo" target="_blank">live demo</a>!
+          <a href="https://youtube.com/placeholder" target="_blank">video demo</a>.
         </>
       ),
       button: {
@@ -45,7 +41,7 @@ export default {
     {
       cardLink: '/dev-docs/intro',
       cardTitle: 'Developer Documentation',
-      cardDescription: 'All you need to get your project up-and-running, and become a Strapi expert',
+      cardDescription: 'All you need to get your project up-and-running, and become an AquaBera expert',
       cardImgSrc: require('@site/static/img/assets/home/preview--dev-docs.jpg').default,
       linksIconSrc: require('@site/static/img/assets/icons/code.svg').default,
       linksIconColor: 'green',
@@ -102,11 +98,33 @@ export default {
         },
       ],
     },
+    {
+      cardLink: '/community/intro',
+      cardTitle: 'Community',
+      cardDescription: 'Join the AquaBera community to connect and collaborate with others',
+      cardImgSrc: require('@site/static/img/assets/home/preview--dev-docs.jpg').default, // Using existing image
+      linksIconSrc: require('@site/static/img/assets/icons/code.svg').default, // Using existing icon
+      linksIconColor: 'purple',
+      links: [
+        {
+          label: 'Forum',
+          to: 'https://forum.aquabera.com',
+        },
+        {
+          label: 'Discord',
+          to: 'https://discord.com/invite/aquabera',
+        },
+        {
+          label: 'GitHub',
+          to: 'https://github.com/labs-solo/aberabook',
+        },
+      ],
+    },
   ],
 
   /** Help us to improve the documentation */
   huitd: {
     label: 'Help us improve the documentation',
-    href: 'https://github.com/strapi/documentation',
+    href: 'https://github.com/labs-solo/aberabook',
   },
 };
