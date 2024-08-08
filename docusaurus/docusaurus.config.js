@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'AquaBera Documentation',
   tagline: 'Automate and optimize your crypto liquidity provision with AquaBera.',
-  url: 'https://docs.aquabera.com/',
-  baseUrl: '/',
+  url: 'https://labs-solo.github.io',
+  baseUrl: '/aberabook/',
   onBrokenLinks: 'throw', // replace with 'throw' to stop building if broken links
   onBrokenMarkdownLinks: 'throw',
   favicon: 'https://aquabera.com/assets/favicon-32x32.png',
@@ -17,9 +17,6 @@ const config = {
     prefabApiKey: process.env.REACT_APP_PREFAB_FRONTEND_PRODUCTION_API_KEY || "398-Development-P435-E907-FRONTEND-b3f733ec-b1b7-464f-8b6f-9cf91d23a434",
   },
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -163,12 +160,6 @@ const config = {
             label: 'User Guide'
           },
           {
-            type: 'doc',
-            docId: 'community/intro',
-            position: 'left',
-            label: 'Community'
-          },
-          {
             href: 'https://github.com/labs-solo/aberabook',
             label: 'GitHub',
             position: 'right',
@@ -188,10 +179,6 @@ const config = {
               {
                 label: 'User Guide',
                 to: '/user-docs/intro',
-              },
-              {
-                label: 'Community',
-                to: '/community/intro'
               },
             ],
           },
@@ -264,29 +251,6 @@ const config = {
         enableInDevelopment: false, // optional
       },
     ],
-    /**
-     * Seems like we have an issue where a medium-zoom--hidden class is applied on the second, top-most (z-index wise) image,
-     * actually hiding the image when zoomed in. Found no related issue in the plugin's repo, might have to dig whether it's
-     * related to the Docusaurus canary build or not.
-     */
-    // [
-    //   '@docusaurus/plugin-client-redirects',
-    //   {
-    //     fromExtensions: ['html', 'htm'], // /myPage.html -> /myPage
-    //     redirects: [
-    //       // /docs/oldDoc -> /docs/newDoc
-    //       {
-    //         to: '/dev-docs/admin-panel-customization',
-    //         from: ['/developer-docs/latest/development/admin-customization', '/developer-docs/latest/development/admin-customization.html'],
-    //       },
-    //       // Redirect from multiple old paths to the new path
-    //       // {
-    //       //   to: '/docs/newDoc2',
-    //       //   from: ['/docs/oldDocFrom2019', '/docs/legacyDocFrom2016'],
-    //       // },
-    //     ],
-    //   },
-    // ],
   ],
 };
 
