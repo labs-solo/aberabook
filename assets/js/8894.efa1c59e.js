@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkstrapi_docs=self.webpackChunkstrapi_docs||[]).push([[8894],{18894:(s,c,e)=>{e.r(c)}}]);
