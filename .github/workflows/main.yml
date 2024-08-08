@@ -19,7 +19,8 @@ jobs:
           node-version: '16'
 
       - name: Install dependencies
-        run: cd docusaurus && yarn install
+        run: yarn install
+        working-directory: ./docusaurus
 
       - name: Build site
         run: yarn build
