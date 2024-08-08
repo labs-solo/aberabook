@@ -6,13 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Strapi Documentation',
-  tagline: 'Design APIs fast, manage content easily.',
-  url: 'https://docs.strapi.io/',
+  title: 'AquaBera Documentation',
+  tagline: 'Automate and optimize your crypto liquidity provision with AquaBera.',
+  url: 'https://docs.aquabera.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw', // replace with 'throw' to stop building if broken links
   onBrokenMarkdownLinks: 'throw',
-  favicon: 'https://strapi.io/assets/favicon-32x32.png',
+  favicon: 'https://aquabera.com/assets/favicon-32x32.png',
   customFields: {
     prefabApiKey: process.env.REACT_APP_PREFAB_FRONTEND_PRODUCTION_API_KEY || "398-Development-P435-E907-FRONTEND-b3f733ec-b1b7-464f-8b6f-9cf91d23a434",
   },
@@ -33,38 +33,32 @@ const config = {
 
   scripts: [
     {
-      src:
-        '/js/hotjar.js',
+      src: '/js/hotjar.js',
       type: 'module',
       async: true,
     },
     {
-      src:
-        '/js/particle.js',
+      src: '/js/particle.js',
       type: 'module',
       async: true,
     },
     {
-      src:
-        '/js/firework.js',
+      src: '/js/firework.js',
       type: 'module',
       async: true,
     },
     {
-      src:
-        '/js/ball.js',
+      src: '/js/ball.js',
       type: 'module',
       async: true,
     },
     {
-      src:
-        '/js/bar.js',
+      src: '/js/bar.js',
       type: 'module',
       async: true,
     },
     {
-      src:
-        '/js/game.js',
+      src: '/js/game.js',
       type: 'module',
       async: true,
     },
@@ -82,7 +76,7 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/strapi/documentation/edit/main/docusaurus',
+          editUrl: 'https://github.com/labs-solo/aberabook/edit/main/docusaurus',
           admonitions: {
             tag: ':::',
             keywords: [
@@ -96,12 +90,11 @@ const config = {
               // Admonitions custom
               'callout',
               'prerequisites',
-              'strapi',
+              'aquabera',
               'warning',
             ],
           },
         },
-        // we're using docs-only mode for now — see https://docusaurus.io/docs/docs-introduction
         blog: false,
         theme: {
           customCss: require.resolve('./src/scss/__index.scss'),
@@ -131,9 +124,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       announcementBar: {
-        id: 'strapi5docs',
+        id: 'aquabera-launch',
         content:
-          "Strapi 5 Release Candidate (RC) is out! 🚀 Read the Strapi 5 RC docs at <a href='https://docs-next.strapi.io/dev-docs/whats-new'>docs-next.strapi.io</a>",
+          "AquaBera is launching on Bartio Testnet Soon 🚀!",
         backgroundColor: 'rgb(236, 235, 255)',
         textColor: '#091E42',
         isCloseable: true,
@@ -147,12 +140,12 @@ const config = {
       algolia: {
         appId: '392RJ63O14',
         apiKey: 'ed62374a794e8da5accb298e13618614',
-        indexName: 'strapiDocsNextstrapiDocsNext',
+        indexName: 'aquaberaDocsNext',
       },
       navbar: {
         hideOnScroll: false,
         logo: {
-          alt: 'Strapi Documentation Logo',
+          alt: 'AquaBera Documentation Logo',
           src: 'img/logo.png',
           srcDark: 'img/logo-dark.png',
         },
@@ -171,18 +164,15 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'cloud/getting-started/intro',
+            docId: 'community/intro',
             position: 'left',
-            label: 'Strapi Cloud'
+            label: 'Community'
           },
           {
-            href: 'https://github.com/strapi/documentation',
+            href: 'https://github.com/labs-solo/aberabook',
             label: 'GitHub',
             position: 'right',
           },
-          // {
-          //   type: 'docsVersionDropdown', // temporarily disabled, enable again when adding versioning, see https://tutorial.docusaurus.io/docs/tutorial-extras/manage-docs-versions
-          // }
         ],
       },
       footer: {
@@ -200,16 +190,8 @@ const config = {
                 to: '/user-docs/intro',
               },
               {
-                label: 'Strapi Cloud',
-                to: '/cloud/intro'
-              },
-              {
-                label: 'v3 Docs (unsupported)',
-                href: 'https://docs-v3.strapi.io'
-              },
-              {
-                label: 'Contributor Docs',
-                href: 'https://contributor.strapi.io'
+                label: 'Community',
+                to: '/community/intro'
               },
             ],
           },
@@ -218,15 +200,15 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discord.strapi.io/',
+                href: 'https://discord.aquabera.com/',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/strapijs',
+                href: 'https://twitter.com/aquabera',
               },
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/strapi',
+                href: 'https://stackoverflow.com/questions/tagged/aquabera',
               },
             ],
           },
@@ -235,15 +217,15 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: 'https://strapi.io/blog',
+                to: 'https://aquabera.com/blog',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/strapi/documentation',
+                href: 'https://github.com/labs-solo/aberabook',
               },
               {
-                label: 'Strapi.io',
-                href: 'https://strapi.io',
+                label: 'AquaBera.io',
+                href: 'https://aquabera.com',
               }
             ],
           },

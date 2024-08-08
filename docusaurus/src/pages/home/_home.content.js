@@ -9,21 +9,20 @@ export default {
     {
       backgroundImgSrc: require('@site/static/img/assets/home/carousel-background--cloud.png').default,
       variant: 'cloud',
-      title: 'AquaBera App',
+      title: 'Community',
       description: (
         <>
-          {'Learn more on the '}
-          <a href="http://www.aquabera.com" target="_blank">product page</a>.
+          {'Join and engage with the AquaBera community.'}
         </>
       ),
       button: {
-        label: 'AquaBera App docs',
+        label: 'Community',
         decorative: '☁️',
-        to: '/cloud/intro',
+        to: '/community/intro',
       },
     },
     {
-      title: 'Can’t wait to use AquaBera?',
+      title: 'AquaBera is launching on Bartio Testnet Soon 🚀!',
       description: (
         <>
           {'If demos are more your thing, we have a '}
@@ -33,7 +32,7 @@ export default {
       button: {
         label: 'Quick start',
         decorative: '🚀',
-        to: '/dev-docs/quick-start',
+        to: '/user-docs/intro',
       },
     },
   ],
@@ -101,7 +100,7 @@ export default {
     {
       cardLink: '/community/intro',
       cardTitle: 'Community',
-      cardDescription: 'Join the AquaBera community to connect and collaborate with others',
+      cardDescription: 'Join and engage with the AquaBera community.',
       cardImgSrc: require('@site/static/img/assets/home/preview--dev-docs.jpg').default, // Using existing image
       linksIconSrc: require('@site/static/img/assets/icons/code.svg').default, // Using existing icon
       linksIconColor: 'purple',
