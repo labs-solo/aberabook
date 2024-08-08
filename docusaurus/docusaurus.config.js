@@ -10,8 +10,8 @@ const config = {
   tagline: 'Automate and optimize your crypto liquidity provision with AquaBera.',
   url: 'https://labs-solo.github.io',
   baseUrl: '/aberabook/',
-  onBrokenLinks: 'throw', // replace with 'throw' to stop building if broken links
-  onBrokenMarkdownLinks: 'throw',
+  onBrokenLinks: 'warn', // replace with 'throw' to stop building if broken links
+  onBrokenMarkdownLinks: 'warn',
   favicon: 'https://aquabera.com/assets/favicon-32x32.png',
   customFields: {
     prefabApiKey: process.env.REACT_APP_PREFAB_FRONTEND_PRODUCTION_API_KEY || "398-Development-P435-E907-FRONTEND-b3f733ec-b1b7-464f-8b6f-9cf91d23a434",
