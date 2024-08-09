@@ -23,9 +23,6 @@
 .carousel {
   position: relative;
   max-width: 100%;
-  height: auto; /* Allow the height to adjust based on content */
-  overflow: hidden;
-  max-height: 358px; /* Maintain a consistent height on desktop */
 
   &__viewport {
     overflow: hidden;
@@ -77,8 +74,8 @@
     }
 
     &__svg {
-      width: var(--strapi-carousel-navigation-icon-size);
-      height: var(--strapi-carousel-navigation-icon-size);
+      width: var(var(--strapi-carousel-navigation-icon-size));
+      height: var(var(--strapi-carousel-navigation-icon-size));
     }
 
     &--prev {
@@ -116,13 +113,6 @@
       }
     }
   }
-
-  .card__img-bg {
-    width: 100%;
-    height: auto;
-    max-height: 358px; /* Ensure the image doesn't exceed this height on all screen sizes */
-    object-fit: cover; /* Maintain aspect ratio without stretching */
-  }
 }
 
 /** Responsive */
@@ -130,37 +120,21 @@
   :root {
     --strapi-carousel-navigation-sides-offset: 24px;
   }
-}
-
-@media screen and (max-width: 768px) {
-  .carousel {
-    height: auto; /* Adjust the carousel height on mobile */
-  }
-
-  .card__title {
-    font-size: 1.5rem;
-  }
-
-  .card__description {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
 
   .carousel__container {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;  // Ensure it remains row on larger screens
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel__container {
+    flex-direction: row !important;  // Ensure items align side by side on mobile
+    overflow-x: scroll;  // Enable horizontal scrolling if needed
   }
 
   .carousel__slide {
-    flex: none;
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-
-  .card__img-bg {
-    height: 100%;
-    max-height: 249px; /* Match mobile size requirements */
-    width: 100%;
+    min-width: 100%;  // Ensure each slide takes full width on mobile
+    max-width: 100%;
   }
 }
 

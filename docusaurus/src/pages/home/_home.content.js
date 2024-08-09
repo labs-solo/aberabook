@@ -3,7 +3,7 @@ import React from 'react';
 export default {
   page: {
     title: 'AquaBera’s documentation',
-    description: 'Automate and optimize your crypto liquidity provision with AquaBera.',
+    description: 'Automate and optimize your participation in Proof-of-Liquidity.',
   },
   carousel: [
     {
