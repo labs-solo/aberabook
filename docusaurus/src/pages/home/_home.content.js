@@ -35,6 +35,29 @@ export default {
         to: '/user-docs/intro',
       },
     },
+    {
+      backgroundImgSrc: require('@site/static/img/assets/home/Validators.jpg').default,
+      variant: 'validators',
+      title: 'Validators',
+      description: (
+        <>
+          {'Efficient asset allocation, increased rewards.'}
+        </>
+      ),
+      button: {
+        label: 'Learn More',
+        decorative: '📊',
+        to: '/validators/intro',
+      },
+      textStyle: {
+        fontSize: '24px',
+        fontWeight: 'bold',
+        color: '#ffffff',
+        position: 'absolute',
+        top: '20%',
+        left: '10%',
+      },
+    },
   ],
   categories: [
     {
