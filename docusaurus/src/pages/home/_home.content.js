@@ -3,7 +3,7 @@ import React from 'react';
 export default {
   page: {
     title: 'AquaBera’s documentation',
-    description: 'Automate and optimize your participation in Proof-of-Liquidity.',
+    description: 'Automate and optimize your participation in Berachain Proof-of-Liquidity.',
   },
   carousel: [
     {
@@ -41,7 +41,7 @@ export default {
       title: 'Validators',
       description: (
         <>
-          {'Efficient asset allocation, increased rewards.'}
+          {'Maximize Delegation with Focused Strategies.'}
         </>
       ),
       button: {

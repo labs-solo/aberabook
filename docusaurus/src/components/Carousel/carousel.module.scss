@@ -135,6 +135,15 @@
   .carousel__slide {
     min-width: 100%;  // Ensure each slide takes full width on mobile
     max-width: 100%;
+    height: auto;
+  }
+
+  .carousel__viewport {
+    overflow-x: auto;  // Ensure the viewport can scroll horizontally on mobile
+  }
+
+  .carousel__pagination {
+    display: none;  // Hide pagination on mobile to avoid crowding
   }
 }
 
