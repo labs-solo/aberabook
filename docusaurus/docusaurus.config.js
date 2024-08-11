@@ -118,120 +118,188 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      announcementBar: {
-        id: 'aquabera-launch',
-        content:
-          "AquaBera is launching on Bartio Testnet Soon 🚀!",
-        backgroundColor: 'rgb(236, 235, 255)',
-        textColor: '#091E42',
-        isCloseable: true,
+  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+  ({
+    announcementBar: {
+      id: 'aquabera-launch',
+      content:
+        "🚀 AquaBera is launching on Bartio Testnet Soon! Be ready to automate your liquidity.",
+      backgroundColor: '#e0f7fa',  // A soft blue background for better visibility
+      textColor: '#005662',  // Darker text for contrast
+      isCloseable: true,
+    },
+    docs: {
+      sidebar: {
+        hideable: true,  // Allow users to hide the sidebar
+        autoCollapseCategories: true,  // Auto-collapse categories for a cleaner look
       },
-      docs: {
-        sidebar: {
-          hideable: true,
-          autoCollapseCategories: true,
+    },
+    algolia: {
+      appId: '392RJ63O14',
+      apiKey: 'ed62374a794e8da5accb298e13618614',
+      indexName: 'aquaberaDocsNext',
+      contextualSearch: true,  // Enable contextual search to improve relevance
+    },
+    navbar: {
+      hideOnScroll: true,  // Hides the navbar when scrolling down
+      logo: {
+        alt: 'AquaBera Documentation',
+        src: 'img/logo.png',
+        srcDark: 'img/logo-dark.png',
+      },
+      items: [
+        {
+          type: 'doc',
+          docId: 'user-docs/intro',
+          position: 'left',
+          label: 'User Guide',
         },
-      },
-      algolia: {
-        appId: '392RJ63O14',
-        apiKey: 'ed62374a794e8da5accb298e13618614',
-        indexName: 'aquaberaDocsNext',
-      },
-      navbar: {
-        hideOnScroll: false,
-        logo: {
-          alt: 'AquaBera Documentation Logo',
-          src: 'img/logo.png',
-          srcDark: 'img/logo-dark.png',
+        {
+          type: 'doc',
+          docId: 'dev-docs/intro',
+          position: 'left',
+          label: 'Developer Docs',
         },
-        items: [
-          {
-            type: 'doc',
-            docId: 'dev-docs/intro',
-            position: 'left',
-            label: 'Developer Docs',
-          },
-          {
-            type: 'doc',
-            docId: 'user-docs/intro',
-            position: 'left',
-            label: 'User Guide'
-          },
-          {
-            href: 'https://github.com/labs-solo/aberabook',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
+        {
+          label: 'Community',
+          position: 'left',
+          items: [
+            {
+              label: 'Tokenomics',
+              to: '/community/tokenomics',
+            },
+            {
+              label: 'Socials',
+              to: '/community/socials',
+            },
+            {
+              label: 'Forum',
+              to: '/community/forum',
+            },
+            {
+              label: 'Discord',
+              href: 'https://discord.aquabera.com/',
+            },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/aquabera',
+            },
+          ],
+        },
+        {
+          href: 'https://aquabera.com',
+          label: 'AquaBera.com',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/labs-solo/aberabook',
+          label: 'GitHub',
+          position: 'right',
+        },
+      ],
+    },
+    footer: {
+      style: 'dark',
+      links: [
+        {
+          title: 'AquaBera Documentation',
+          items: [
+            {
+              label: 'User Guide',
+              to: '/user-docs/intro',
+            },
+            {
+              label: 'Developer Documentation',
+              to: '/dev-docs/intro',
+            },
+            {
+              label: 'FAQ',
+              to: '/user-docs/faq',
+            },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'Tokenomics',
+              to: '/community/tokenomics',
+            },
+            {
+              label: 'Socials',
+              to: '/community/socials',
+            },
+            {
+              label: 'Forum',
+              to: '/community/forum',
+            },
+            {
+              label: 'Discord',
+              href: 'https://discord.aquabera.com/',
+            },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/aquabera',
+            },
+          ],
+        },
+        {
+          title: 'Developer Resources',
+          items: [
+            {
+              label: 'Deployed Contracts',
+              to: '/dev-docs/deployed-contracts',
+            },
+            {
+              label: 'Audits',
+              to: '/dev-docs/audits',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/labs-solo/aberabook',
+            },
+          ],
+        },
+        {
+          title: 'More',
+          items: [
+            {
+              label: 'Blog',
+              to: 'https://aquabera.com/blog',
+            },
+            {
+              label: 'About Us',
+              to: '/about-us',
+            },
+            {
+              label: 'Contact',
+              to: '/contact',
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} AquaBera. Built with ❤️ by the AquaBera community.`,
+    },
+    prism: {
+      theme: lightCodeTheme,  // Use a light theme for better readability
+      darkTheme: darkCodeTheme,  // Keep the dark theme option for dark mode
+    },
+    zoom: {
+      selector: '.markdown img',  // Enables image zoom on all images within markdown
+      background: {
+        light: 'rgba(255, 255, 255, 0.8)',  // Light background for image zoom
+        dark: 'rgba(0, 0, 0, 0.8)',  // Dark background for image zoom in dark mode
       },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Dev Docs',
-                to: '/dev-docs/intro',
-              },
-              {
-                label: 'User Guide',
-                to: '/user-docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Discord',
-                href: 'https://discord.aquabera.com/',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/aquabera',
-              },
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/aquabera',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: 'https://aquabera.com/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/labs-solo/aberabook',
-              },
-              {
-                label: 'AquaBera.io',
-                href: 'https://aquabera.com',
-              }
-            ],
-          },
-        ],
+      config: {
+        // Any additional configuration options for image zoom
       },
-      prism: {
-        theme: darkCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-      zoom: {
-        // selector: '.markdown :not(em) > img', // disabled to ensure it works with themed images
-        // We also have a bug with images embedded in details blocks, see https://github.com/gabrielcsapo/docusaurus-plugin-image-zoom/issues/27
-      },
-      hubspot: {
-        accountId: 6893032,
-        async: false, // OPTIONAL: sets the async attribute on the script tag, defaults to false
-        defer: false, // OPTIONAL: sets the defer attribute on the script tag, defaults to false
-      },
-    }),
+    },
+    hubspot: {
+      accountId: 6893032,
+      async: true,  // Set to true to load the HubSpot script asynchronously
+      defer: true,  // Set to true to defer the HubSpot script loading
+    },
+  }),
 
   plugins: [
     [

@@ -32,90 +32,79 @@ export default {
         ),
         button: {
           label: 'Learn More',
-          decorative: '💰',  // Changed to a more appropriate icon
+          decorative: '💰',
           to: '/validators/intro',
         },
       },
   ],
   categories: [
     {
-      cardLink: '/dev-docs/intro',
-      cardTitle: 'Developer Documentation',
-      cardDescription: 'All you need to get your project up-and-running, and become an AquaBera expert',
-      cardImgSrc: require('@site/static/img/assets/home/preview--dev-docs.jpg').default,
-      linksIconSrc: require('@site/static/img/assets/icons/code.svg').default,
-      linksIconColor: 'green',
-      links: [
-        {
-          label: 'Installation guides',
-          to: '/dev-docs/installation',
-        },
-        {
-          label: 'Database configuration',
-          to: '/dev-docs/configurations/database',
-        },
-        {
-          label: 'REST API',
-          to: '/dev-docs/api/rest',
-        },
-        {
-          label: 'GraphQL API',
-          to: '/dev-docs/api/graphql',
-        },
-        {
-          label: 'Back-end customization',
-          to: '/dev-docs/backend-customization',
-        },
-      ],
-    },
-    {
       cardLink: '/user-docs/intro',
-      cardTitle: 'User Guide',
-      cardDescription: 'Get the most out of the admin panel with our user guide',
+      cardTitle: '📘 User Guide',
+      cardDescription: 'Get the most out of AquaBera with our user guide',
       cardImgSrc: require('@site/static/img/assets/home/preview--user-guides.jpg').default,
-      linksIconSrc: require('@site/static/img/assets/icons/feather.svg').default,
       linksIconColor: 'blue',
       links: [
         {
-          label: 'Getting started in the admin panel',
-          to: '/user-docs/intro#accessing-the-admin-panel',
+          label: 'ℹ️ Introduction to AquaBera',
+          to: '/user-docs/intro-to-aquabera',
         },
         {
-          label: 'Creating content-types',
-          to: '/user-docs/content-type-builder/creating-new-content-type',
+          label: '🔗 Understanding BeraChain’s Proof-of-Liquidity (PoL)',
+          to: '/user-docs/understanding-pol',
         },
         {
-          label: 'Configuring content-types fields',
-          to: '/user-docs/content-type-builder/configuring-fields-content-type',
+          label: '🌊 Liquidity Management on Kodiak via AquaBera',
+          to: '/user-docs/liquidity-management-kodiak',
         },
         {
-          label: 'Writing content',
-          to: '/user-docs/content-manager/writing-content',
+          label: '🗳️ Gauges and Voting Mechanisms',
+          to: '/user-docs/gauges-voting',
         },
         {
-          label: 'Setting up the admin panel',
-          to: '/user-docs/settings/admin-panel',
+          label: '🎁 Incentives and Rewards',
+          to: '/user-docs/incentives-rewards',
         },
       ],
     },
     {
       cardLink: '/community/intro',
-      cardTitle: 'Community',
+      cardTitle: '👥 Community',
       cardDescription: 'Join and engage with the AquaBera community.',
-      cardImgSrc: require('@site/static/img/assets/home/preview--dev-docs.jpg').default, // Using existing image
-      linksIconSrc: require('@site/static/img/assets/icons/code.svg').default, // Using existing icon
+      cardImgSrc: require('@site/static/img/assets/home/preview--dev-docs.jpg').default,
       linksIconColor: 'purple',
       links: [
         {
-          label: 'Forum',
-          to: 'https://forum.aquabera.com',
+          label: '💰 Tokenomics',
+          to: '/community/tokenomics',
         },
         {
-          label: 'Discord',
-          to: 'https://discord.com/invite/aquabera',
+          label: '📱 Socials',
+          to: '/community/socials',
         },
         {
-          label: 'GitHub',
+          label: '💬 Forum',
+          to: '/community/forum',
+        },
+      ],
+    },
+    {
+      cardLink: '/dev-docs/intro',
+      cardTitle: '💻 Developer Documentation',
+      cardDescription: 'All you need to get your project up-and-running, and become an AquaBera expert',
+      cardImgSrc: require('@site/static/img/assets/home/preview--dev-docs.jpg').default,
+      linksIconColor: 'green',
+      links: [
+        {
+          label: '📜 Deployed Contracts',
+          to: '/dev-docs/deployed-contracts',
+        },
+        {
+          label: '🔍 Audits',
+          to: '/dev-docs/audits',
+        },
+        {
+          label: '🔧 GitHub',
           to: 'https://github.com/labs-solo/aberabook',
         },
       ],
