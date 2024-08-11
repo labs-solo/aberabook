@@ -1,118 +1,110 @@
-# Contribute to the Strapi documentation
+# Contributing to AquaBera Documentation
 
-Strapi’s documentation is open-source, hosted on GitHub in the present `strapi/documentation` repository. The [Strapi Documentation team](https://strapi.io/company) maintains the repository and the corresponding official website hosted at [docs.strapi.io](https://docs.strapi.io).
+Thank you for your interest in contributing to AquaBera's documentation! We appreciate all contributions that help improve and expand our documentation. AquaBera’s documentation is open-source and hosted on GitHub in the [labs-solo/aberabook repository](https://github.com/labs-solo/aberabook). This guide will walk you through the steps of contributing to AquaBera’s documentation, from setting up your environment to submitting a pull request.
 
-The Strapi Documentation team does not maintain blog articles hosted at [strapi.io/blog](https://strapi.io/blog) or any other educational or informational content not hosted on the [official documentation website](docs.strapi.io); these should not be subject to GitHub pull requests or issues on the present repository.
+## Before You Start
 
-We appreciate your interest and efforts to contribute to Strapi! Though all contributions are highly appreciated, we recommend you talk to a maintainer (`@pwizla` or `@meganelacheny`) prior to investing a lot of time in a pull request that may not align with the project roadmap or would modify the UI, UX, or any other part of the Strapi Documentation product experience. Please note that contributions, pull requests, and issues should be written in English.
+Before you begin working on a contribution, it's a good idea to discuss your proposed changes with the AquaBera Documentation team. This ensures your contribution aligns with the project’s roadmap and avoids potential duplication of effort. You can reach out to a maintainer directly on GitHub or through the AquaBera Discord channel.
 
-The Strapi Documentation team reviews pull requests and either merges, requests changes, or comments and closes the pull request. You can open a documentation pull request by:
+## Contribution Guidelines
 
-- forking the `documentation` repository and working locally,
-- or, for smaller updates, clicking the `Improve this page` link at the bottom of any documentation page to directly edit in GitHub.
+### 1. **Learn How to Use Docusaurus**
 
-Contributing to the Strapi documentation implies 2 steps:
+AquaBera’s documentation is built using Docusaurus, a React and Markdown-based framework. To contribute effectively, you need to understand Docusaurus’s file structure, branch naming conventions, and Markdown syntax.
 
-1. Learn how to use [Docusaurus](#-docusaurus), the tool used to write and generate Strapi's documentation.
+#### **File Structure and Branch Naming Conventions**
 
-2. [Submit a pull request](#-pull-requests) for review.
+AquaBera’s documentation is organized into three main sections:
 
-***
-*Please note*: The Strapi Documentation team is currently not accepting new deployment or integration guides. These guides will soon be moved to another resource and probably only maintained by the Strapi Community while the Strapi Documentation team will focus on documenting only core Strapi products and features. Thank you for your understanding 🙏
-***
+- **User Guide:** All content related to using AquaBera from an end-user perspective is located in the `/docusaurus/docs/user-docs/` directory. Branches for this section should be prefixed with `user/`.
+  
+- **Developer Docs:** This section covers technical details, API references, and guides for developers, found in the `/docusaurus/docs/dev-docs/` directory. Branches should be prefixed with `dev/`.
+  
+- **Community:** Content related to community guidelines, tokenomics, and other community-driven resources are housed in `/docusaurus/docs/community/`. Branches for community contributions should be prefixed with `community/`.
 
-## 🦖 Docusaurus
+For contributions that span multiple sections, prefix your branch with `repo/`.
 
-Strapi’s documentation is built with the React- and Markdown-based [Docusaurus](https://docusaurus.io) framework.
+#### **Formatting and Syntax**
 
-To start contributing to Strapi’s documentation using Docusaurus, you need to understand the [files and branches architecture](#use-the-files-architecture-and-branch-names-conventions-appropriately), and use the proper [syntax to format content](#use-the-proper-formatting-and-syntax). Additionally, if you want to work locally from a repository fork, you should [set up the Docusaurus project](#working-locally-set-up-the-project) on your machine.
+Docusaurus uses MDX, which combines Markdown with React components. Ensure you follow AquaBera’s style guide for consistent documentation formatting. If you use an automatic formatter like Prettier, please disable it to avoid unwanted changes that could affect rendering.
 
-### Use the files architecture and branch names conventions appropriately
+**AquaBera Documentation Style Guide:** [Link to Style Guide]
 
-Strapi’s documentation includes 3 big sections, 2 for the CMS and 1 for Strapi Cloud, each section living in a different folder. You should prefix the name of your contribution’s branch with the corresponding section name:
+While writing, keep in mind the principles of clear and concise technical writing. AquaBera’s Documentation team assesses contributions based on these principles to maintain the quality and consistency of the documentation.
 
-| Section name      | Target content                                                    | Folder                        | Branch name prefix |
-| ------------------| ----------------------------------------------------------------- | ----------------------------- | ------------------ |
-| [User Guide](https://docs.strapi.io/user-docs)        | For all things related to the Strapi's admin panel | `/docusaurus/docs/user-docs/` | `user/`            |
-| [Developer Docs](https://docs.strapi.io/dev-docs)    | For all things that are not<br/>manageable from the admin panel       | `/docusaurus/docs/dev-docs/`  | `dev/`             |
-| [Strapi Cloud Docs](https://docs.strapi.io/cloud) | For all things related to Strapi Cloud                            | `/docusaurus/docs/cloud/`     | `cloud/`           |
+### 2. **Set Up the Project Locally**
 
-ℹ️ In the rare case of a pull request that impacts multiple parts of the repository (for instance user guide + dev docs), please prefix your branch with `repo/`.
+To contribute to AquaBera documentation, you may want to work locally. Here’s how to set up the Docusaurus project on your machine:
 
-### Use the proper formatting and syntax
-
-Docusaurus is MDX-based, meaning the content you write is [Markdown](https://daringfireball.net/projects/markdown/syntax) that accepts [React](https://reactjs.org/) components.
-
-The Strapi Documentation team has created a complete style guide for you to make the best out of the various options available:
-
-👉 [Strapi Documentation Style Guide](STYLE_GUIDE.pdf) 
-
-💁 While writing, please consider the [12 Rules of Technical Writing](https://handbook.strapi.io/user-success-manual/12-rules-of-technical-writing) that the Strapi Documentation team will use to assess the quality and consistency of the contribution. 😊
-
-**Important:** If you use an automatic formatter in your code editor (e.g., Prettier), **please disable it** as it could add unnecessary changes to your pull request or cause rendering issues because some Markdown formatting is based on whitespace.
-
-### Working locally: Set up the project
-
-To set up the Docusaurus project on your machine, perform the following steps from a terminal instance:
-
-1. Clone the repository: `git clone [access-path-to-your-forked-repository]`<br/>(for instance, `git clone git@github.com:my-github-handle/documentation.git`<br/>— see GitHub documentation for [more information about forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks)).
-2. Enter the `documentation` folder (which is the name of the repository) and then the `docusaurus` folder: `cd documentation/docusaurus`
-3. _(optional, if the repository already exists on your machine)_<br/>Get the latest updates from the `main` branch: `git checkout main && git pull`
-4. Install dependencies and start the server: `yarn && yarn dev`
-    
-    ⚠️ Docusaurus requires node 16.14+. You may use [nvm](https://github.com/nvm-sh/nvm) to install and run the correct node version.
-    
-5. Once the terminal reads “`client (webpack [version number] compiled successfully`,” open [localhost:8080](http://localhost:8080) in your browser to view the website.
-
-You can now start changing content and see the website updated live each time you save a new file. 🤓
-
-## 👀 Pull requests
-
-***
-⚠️ **Important prerequisite: Build the content locally before submitting a pull request 👇**
-
-The documentation repository uses a continuous integration/continuous delivery workflow. If the pages are not built and rendered properly, the auto-deployment process on [docs.strapi.io](http://docs.strapi.io) triggered when the pull request is merged with `main` will fail.
-
-To prevent building issues upstream, before submitting your pull request, please stop the development server and build the page locally: in the terminal instance, press `Ctrl-C` to stop the server, then run `yarn build`.
-
-- If no issues are reported (”client” and “server compiled successfully”), go ahead and submit the pull request. 
-- If some issues are reported (e.g., broken links), please use information reported by the terminal to fix issues, then try another `yarn build`, and repeat until no issues are reported.
-
-***
-
-Your pull request should usually target the `main` branch, though the Strapi Documentation team might sometimes ask you to target another branch.
-
-To submit your contribution for review:
-
-1. Create a new [pull request on GitHub](https://github.com/strapi/documentation/compare).
-2. Give it a proper title and description.
-3. Click the “Create pull request” button to create the pull request effectively.
-    
-    ✏️ If your pull request is not ready for review yet, choose the “[Create draft pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)” in the dropdown. The Strapi documentation team will review your pull request only when you will mark it as “[Ready for review](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-stage-of-a-pull-request)”.
+1. **Fork the Repository:**
+   - Fork the [labs-solo/aberabook repository](https://github.com/labs-solo/aberabook) on GitHub to your account.
+   - Clone your fork locally using the following command:
+     ```bash
+     git clone git@github.com:your-github-username/aberabook.git
+     ```
    
-4. _(optional — if not set, the Strapi Documentation team will set or update this for you)_:<br/>Add GitHub labels for:
-   - the section of the documentation targeted by the pull request: `source: User Guide`, `source: Dev Docs`, or `source: Strapi Cloud`
-   - the type of updates introduced by the pull request: 
-     - `pr: new content` for new features,
-     - `pr: updated content` for significant (20+ lines) updates to existing features,
-     - or `pr: chore` for smaller improvements (fixes, typos, chore tasks…).
-    
-**⚠️ Important: Add the `flag: merge pending release` if the Strapi Documentation team should wait before merging the pull request.** Approved pull requests are usually merged immediately into the `main` branch, automatically triggering a deployment on docs.strapi.io. Please use the `flag: merge pending release` label if the pull request content should only be released publicly in sync with a product release (e.g., if you submit a pull request to document a contribution to the `strapi/strapi` repository).
+2. **Navigate to the Project Directory:**
+   - Enter the project directory:
+     ```bash
+     cd aberabook/docusaurus
+     ```
+   
+3. **Get the Latest Updates:**
+   - If you have previously cloned the repository, ensure you have the latest updates:
+     ```bash
+     git checkout main && git pull
+     ```
 
+4. **Install Dependencies and Start the Server:**
+   - Run the following commands to install the necessary dependencies and start the local development server:
+     ```bash
+     yarn && yarn dev
+     ```
+   
+   - Ensure you have Node.js version 16.14+ installed. You can use `nvm` to manage Node versions if needed.
 
-That’s it! 🥳 Once the pull request is [reviewed and approved](#review-and-management-of-pull-requests), the Strapi Documentation team will merge it, and the content will be live on [docs.strapi.io](http://docs.strapi.io) a few minutes later. 🚀
+5. **Access the Local Development Server:**
+   - Once the server is running, open your browser and navigate to `http://localhost:8080` to view the documentation site.
 
+### 3. **Submit a Pull Request (PR)**
 
-## Review and management of pull requests
+When you’re ready to submit your contribution, follow these steps:
 
-The pull request review process and timeline are based on the availability of the Strapi Documentation team to handle community contributions. The workflow is as follows:
+1. **Build the Content Locally:**
+   - Before submitting your pull request, stop the local development server by pressing `Ctrl-C` in the terminal.
+   - Run the following command to build the documentation locally and check for errors:
+     ```bash
+     yarn build
+     ```
+   
+   - Ensure there are no build errors before proceeding.
 
-1. The pull request is assigned to a member of the Documentation team.
-2. At least 1 member of the Documentation team will review the pull request for:
+2. **Create a Pull Request:**
+   - Push your changes to your fork and create a new pull request (PR) targeting the `main` branch of the [labs-solo/aberabook repository](https://github.com/labs-solo/aberabook).
+   - Give your PR a meaningful title and description explaining your changes.
+   - If your PR is not ready for review, mark it as a draft.
 
-   - accuracy,
-   - quality,
-   - alignment with the documentation scope and roadmap.
+3. **Label Your Pull Request:**
+   - Optionally, add labels to your PR to specify the section (e.g., `source: User Guide`, `source: Dev Docs`) and type of update (`pr: new content`, `pr: updated content`).
 
-3. Reviewers will either approve, ask for changes, or reject the pull request.
-4. Accepted pull requests will be merged and automatically deployed on [docs.strapi.io](https://docs.strapi.io) a few minutes later. 
+4. **Wait for Review:**
+   - The AquaBera Documentation team will review your PR, suggest changes if necessary, and merge it once approved.
+   - If your contribution needs to be released alongside a product update, use the label `merge pending release` to ensure proper timing.
+
+### Review Process
+
+The AquaBera Documentation team will review your PR for accuracy, quality, and alignment with the documentation scope. The review process may take some time depending on the team’s availability. Once your PR is approved and merged, it will be automatically deployed to the documentation site.
+
+## Important Notes
+
+- **No New Integration Guides:** The AquaBera Documentation team is not accepting new integration guides at this time. These guides will soon be maintained by the AquaBera Community.
+- **Contributions in English:** Please submit all contributions, issues, and discussions in English.
+- **Stay Updated:** Make sure your fork is up-to-date with the latest changes from the `main` branch to avoid merge conflicts.
+
+## Thank You for Contributing!
+
+Your contributions are invaluable in helping AquaBera grow and improve. We appreciate your time and effort in making AquaBera’s documentation better for everyone! 🚀
+
+---
+
+This guide provides a comprehensive overview of how to contribute to the AquaBera documentation. If you have any questions or need further assistance, feel free to reach out on Discord or open an issue on GitHub. Happy contributing!
