@@ -40,6 +40,14 @@
     min-width: 0;
     padding-left: var(--strapi-carousel-slide-spacing);
     position: relative;
+
+    &--dark {
+      color: #ffffff; // High contrast on dark backgrounds
+    }
+
+    &--light {
+      color: #000000; // High contrast on light backgrounds
+    }
   }
 
   &__arrow,
@@ -122,7 +130,7 @@
   }
 
   .carousel__container {
-    flex-direction: row;  // Ensure it remains row on larger screens
+    flex-direction: row !important;  // Ensure it remains row on larger screens
   }
 }
 
@@ -133,17 +141,17 @@
   }
 
   .carousel__slide {
-    min-width: 100%;  // Ensure each slide takes full width on mobile
-    max-width: 100%;
-    height: auto;
+    min-width: 100% !important;  // Ensure each slide takes full width on mobile
+    max-width: 100% !important;
+    height: auto !important;
   }
 
   .carousel__viewport {
-    overflow-x: auto;  // Ensure the viewport can scroll horizontally on mobile
+    overflow-x: auto !important;  // Ensure the viewport can scroll horizontally on mobile
   }
 
   .carousel__pagination {
-    display: none;  // Hide pagination on mobile to avoid crowding
+    display: none !important;  // Hide pagination on mobile to avoid crowding
   }
 }
 

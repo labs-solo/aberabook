@@ -3,61 +3,39 @@ import React from 'react';
 export default {
   page: {
     title: 'AquaBera’s documentation',
-    description: 'Automate and optimize your participation in Berachain Proof-of-Liquidity.',
+    description: "Automate and optimize participation in Berachain's Proof-of-Liquidity.",
   },
   carousel: [
-    {
-      backgroundImgSrc: require('@site/static/img/assets/home/carousel-background--cloud.png').default,
-      variant: 'cloud',
-      title: 'Community',
-      description: (
-        <>
-          {'Join and engage with the AquaBera community.'}
-        </>
-      ),
-      button: {
-        label: 'Community',
-        decorative: '☁️',
-        to: '/community/intro',
+      {
+        backgroundImgSrc: require('@site/static/img/assets/home/Validators.jpg').default,
+        variant: 'validators',
+        title: 'Validators',
+        description: (
+          <>
+            {'Maximize Delegation with Focused Strategies.'}
+          </>
+        ),
+        button: {
+          label: 'Learn More',
+          decorative: '📊',
+          to: '/validators/intro',
+        },
       },
-    },
-    {
-      title: 'AquaBera is launching on Bartio Testnet Soon 🚀!',
-      description: (
-        <>
-          {'If demos are more your thing, we have a '}
-          <a href="https://youtube.com/placeholder" target="_blank">video demo</a>.
-        </>
-      ),
-      button: {
-        label: 'Quick start',
-        decorative: '🚀',
-        to: '/user-docs/intro',
+      {
+        backgroundImgSrc: require('@site/static/img/assets/home/Asset_owners.jpg').default,
+        variant: 'cloud',
+        title: '$GBT & LP Token Holders',
+        description: (
+          <>
+            {'Asset Preservation & Growth.'}
+          </>
+        ),
+        button: {
+          label: 'Learn More',
+          decorative: '💰',  // Changed to a more appropriate icon
+          to: '/validators/intro',
+        },
       },
-    },
-    {
-      backgroundImgSrc: require('@site/static/img/assets/home/Validators.jpg').default,
-      variant: 'validators',
-      title: 'Validators',
-      description: (
-        <>
-          {'Maximize Delegation with Focused Strategies.'}
-        </>
-      ),
-      button: {
-        label: 'Learn More',
-        decorative: '📊',
-        to: '/validators/intro',
-      },
-      textStyle: {
-        fontSize: '24px',
-        fontWeight: 'bold',
-        color: '#ffffff',
-        position: 'absolute',
-        top: '20%',
-        left: '10%',
-      },
-    },
   ],
   categories: [
     {

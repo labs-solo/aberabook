@@ -121,6 +121,36 @@
     --strapi-card-description-color: #fff;
   }
 
+  &--validators {
+    --strapi-card-background:
+      radial-gradient(
+        133.72% 136.4% at 42.35% 0%,
+        #1A237E 45.12%,  // Custom background color for validators
+        #0B0B47 100%
+      ),
+      linear-gradient(
+        0deg,
+        #FFFFFF,
+        #FFFFFF
+      ),
+      #FFFFFF
+    ;
+    --strapi-card-title-color: #ffffff;  // Keep the title color white
+    --strapi-card-description-color: #ffffff;  // Keep the description color white
+    
+    /* Add a slightly darker text shadow to the title */
+    .card__title {
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);  // Darker shadow for the title
+    }
+  
+    /* Add a slightly darker text shadow to the description */
+    .card__description {
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);  // Darker shadow for the description
+    }
+  }
+  
+  
+
   &--cta {
     --ifm-link-color: currentColor;
     --strapi-card-background:
