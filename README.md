@@ -20,17 +20,31 @@ AquaBera is a pioneering platform designed to automate and optimize liquidity ma
 - **Seamless Integration with BeraChain and Kodiak**: AquaBera is built to work natively with BeraChain and Kodiak, providing a seamless experience for liquidity providers and other stakeholders.
 - **Customizable**: Easily adapt AquaBera’s strategies to fit your specific needs, ensuring that your liquidity provision efforts are always optimized.
 
-## Documentation websites
+## Documentation Websites
 
-The main official AquaBera documentation website is hosted at [docs.aquabera.com](https://docs.aquabera.com).
+The AquaBera documentation is organized into three main sections to help you navigate and make the most of the platform:
 
-Additional official AquaBera documentation websites include:
+1. **User Guide**:  
+   Get started with AquaBera by understanding its core functionalities and how to effectively use them.
+   - [Introduction to AquaBera](#)
+   - [Understanding BeraChain’s Proof-of-Liquidity (PoL)](#)
+   - [Liquidity Management on Kodiak via AquaBera](#)
+   - [Gauges and Voting Mechanisms](#)
+   - [Incentives and Rewards](#)
 
-- **Developer Documentation**: In-depth technical documentation, including API references and integration guides, is available at [dev-docs.aquabera.com](https://dev-docs.aquabera.com).
-- **Contributor Documentation**: Documentation for those looking to contribute to AquaBera's development is available at [contributor.aquabera.com](https://contributor.aquabera.com). This includes experimental content and detailed guidelines for developers.
-- **Experimental and Upcoming Documentation**: New and upcoming features and documentation for future versions of AquaBera are hosted at [docs-next.aquabera.com](https://docs-next.aquabera.com).
+2. **Community**:  
+   Engage with the AquaBera community and stay updated on the latest developments.
+   - [Tokenomics](#)
+   - [Socials](#)
+   - [Forum](#)
 
-## Contribution requirements
+3. **Developer Documentation**:  
+   Explore technical resources, API references, and guidelines to contribute to AquaBera's development.
+   - [Deployed Contracts](#)
+   - [Audits](#)
+   - [GitHub](#)
+
+## Contribution Requirements
 
 The following are required if you are submitting pull requests to the documentation:
 
@@ -60,7 +74,7 @@ Requests for new documentation are highly encouraged. This includes both new add
 
 Thanks to a continuous integration/continuous delivery workflow, the AquaBera documentation can be updated multiple times a day, depending on the number and frequency of contributions. Weekly snapshot [releases](https://github.com/labs-solo/aberabook/releases) happen on Wednesdays and include a list of changes since the latest release.
 
-## Community support
+## Community Support
 
 For general help using AquaBera, please refer to [the official AquaBera documentation](https://docs.aquabera.com). For additional help, you can use one of these channels to ask a question:
 
