@@ -47,7 +47,7 @@ export default {
       links: [
         {
           label: 'ℹ️ Introduction to AquaBera',
-          to: '/user-docs/intro-to-aquabera',
+          to: 'user-docs/intro',
         },
         {
           label: '🔗 Understanding BeraChain’s Proof-of-Liquidity (PoL)',
