@@ -18,7 +18,7 @@ export default {
         button: {
           label: 'Learn More',
           decorative: '📊',
-          to: '/validators/intro',
+          to: '/user-docs/pol-validators',
         },
       },
       {
@@ -33,7 +33,7 @@ export default {
         button: {
           label: 'Learn More',
           decorative: '💰',
-          to: '/validators/intro',
+          to: '/user-docs/pol-bgt-holders-farmers',
         },
       },
   ],
