@@ -51,19 +51,19 @@ export default {
         },
         {
           label: '🔗 Understanding BeraChain’s Proof-of-Liquidity (PoL)',
-          to: '/user-docs/understanding-pol',
+          to: '/user-docs/intro-pol',
         },
         {
           label: '🌊 Liquidity Management on Kodiak via AquaBera',
-          to: '/user-docs/liquidity-management-kodiak',
+          to: '/user-docs/intro-kodiak',
         },
         {
           label: '🗳️ Gauges and Voting Mechanisms',
-          to: '/user-docs/gauges-voting',
+          to: '/user-docs/gauges-overview',
         },
         {
           label: '🎁 Incentives and Rewards',
-          to: '/user-docs/incentives-rewards',
+          to: '/user-docs/incentives-overview',
         },
       ],
     },
