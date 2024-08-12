@@ -71,7 +71,7 @@ export default {
       cardLink: '/community/intro',
       cardTitle: '👥 Community',
       cardDescription: 'Join and engage with the AquaBera community.',
-      cardImgSrc: require('@site/static/img/assets/home/preview--dev-docs.jpg').default,
+      cardImgSrc: require('@site/static/img/assets/home/preview--community.jpg').default,
       linksIconColor: 'purple',
       links: [
         {
