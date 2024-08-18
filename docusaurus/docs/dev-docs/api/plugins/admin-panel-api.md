@@ -1,6 +1,5 @@
 ---
 sidebar_label: Admin Panel API
-pagination_prev: dev-docs/plugins/development/plugin-structure
 toc_max_heading_level: 4
 ---
 

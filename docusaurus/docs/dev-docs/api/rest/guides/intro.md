@@ -1,8 +1,6 @@
 ---
 title: REST API Guides
 description: Deep dive into some specific REST API topics using guides that extensively explain some use cases or give step-by-step instructions.
-pagination_prev: dev-docs/api/rest
-pagination_next: dev-docs/api/rest/guides/understanding-populate
 ---
 
 # REST API Guides
