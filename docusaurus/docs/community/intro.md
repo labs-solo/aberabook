@@ -12,9 +12,12 @@ One of the key aspects of our community-driven approach is our innovative tokeno
 
 Currently, this section focuses on the tokenomics of AquaBera:
 
-1. [Introduction to AquaBera Tokenomics](./tokenomics/introduction.md): Get an overview of our unique approach to token economics.
-2. [The AquaBera Tokenomics Model](./tokenomics/aquabera-model.md): Dive deep into the mechanics of our model, including the roles of $SIP and $JUG tokens.
-3. [Benefits and Implications](./tokenomics/benefits-and-implications.md): Understand how our tokenomics model benefits the community and its potential impact on the broader DeFi landscape.
+1. [An Aquabera Tale](./tokenomics/tokenomics.md): A fun story about Aquabera tokenomics.
+2. [Tokenomics TL;DR](./tokenomics/benefits-and-implications.md): For those who just want the bullet points.
+3. [The AquaBera Tokenomics Model](./tokenomics/aquabera-model.md): Dive deep into the mechanics of our model, including the roles of $SIP and $JUG tokens.
+5. [Benefits and Implications](./tokenomics/benefits-and-implications.md): Understand how our tokenomics model benefits the community and its potential impact on the broader DeFi landscape.
+6. [Aegis](./partners/aegis.md): An expert in treasury diversification.
+7. [Amplifi](./partners/amplifi.md): Designers of AquaBera's Dynamic Full Float tokenomics.
 
 These documents provide a comprehensive look at how AquaBera's economic model is designed to align incentives, promote sustainable growth, and empower our community.
 
