@@ -12,7 +12,7 @@ One of the key aspects of our community-driven approach is our innovative tokeno
 
 Currently, this section focuses on the tokenomics of AquaBera:
 
-1. [An Aquabera Tale](./tokenomics/tokenomics.md): A fun story about Aquabera tokenomics.
+1. [An AquaBera Tale](./tokenomics/tokenomics.md): A fun story about AquaBera tokenomics.
 2. [Tokenomics TL;DR](./tokenomics/benefits-and-implications.md): For those who just want the bullet points.
 3. [The AquaBera Tokenomics Model](./tokenomics/aquabera-model.md): Dive deep into the mechanics of our model, including the roles of $SIP and $JUG tokens.
 5. [Benefits and Implications](./tokenomics/benefits-and-implications.md): Understand how our tokenomics model benefits the community and its potential impact on the broader DeFi landscape.
