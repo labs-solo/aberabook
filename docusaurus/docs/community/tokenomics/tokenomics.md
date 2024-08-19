@@ -8,6 +8,9 @@ In the vast ocean of decentralized finance, many token launches have struggled t
 
 Low float launches, like small ponds, offered little room for big fish to swim. Market manipulation was rampant, with whales easily making waves that disrupted entire ecosystems. High and full float launches weren’t much better—chaos ensued, dominated by a few large predators. There was little incentive for long-term participation.
 
+![Chaos in the Crypto Sea](/img/assets/community/tokenomics/chaos.jpg)
+<span class="image-caption">Chaos in the Crypto Sea</span>
+
 These traditional models left many projects and their communities feeling like they were swimming against the tide. The need for a better way became clear—a method that could provide smooth sailing for all participants in the vast ocean of crypto. 🚢
 
 As the crypto seas grew more turbulent, a group of innovative Beras heard the call of the wild. The placid pools of traditional tokenomics were drying up, leaving many crypto creatures high and dry. It was time for a change. Time to make a splash.
@@ -135,22 +138,20 @@ As the first rays of sunlight sparkled across the AquaBera lagoon, our band of i
 ![Lessons Like Sweet Honey](/img/assets/community/tokenomics/end.jpg)
 <span class="image-caption">Lessons Like Sweet Honey</span>
 
-Gathering on the shore, surrounded by the thriving ecosystem they had created, each Bera took a moment to reflect on the lessons they had learned—lessons as valuable as the sweetest honey, as deep as the ocean itself.
+Gathering on the shore, surrounded by the thriving ecosystem they had created, each Bera reflected on the lessons they had learned—lessons as valuable as the sweetest honey, as deep as the ocean itself.
 
-Amplifi, the Master Currentologist, stepped forward first. "Friends," they began, their voice carrying across the gentle waves, "we've learned that true innovation isn’t about making the biggest splash but creating currents that lift all boats. Our Dynamic Full Float model showed us that when liquidity flows freely, everyone benefits."
+Amplifi, the Master Currentologist, stepped forward first. "Friends," they began, their voice carrying across the gentle waves, "true innovation isn’t about making the biggest splash, but creating currents that lift all boats. Our Dynamic Full Float model showed that when liquidity flows freely, everyone benefits."
 
-Aegis nodded. "Balance," they buzzed, "is the key to a healthy ecosystem. Like the perfect blend of $HONEY in each $JUG, projects must find harmony between growth and stability, between rewarding early believers and ensuring long-term sustainability."
+Aegis nodded. "Balance is the key to a healthy ecosystem. Like the perfect blend of $HONEY in each $JUG, projects must harmonize growth and stability, rewarding early believers while ensuring long-term sustainability."
 
-One of the younger Beras chimed in, "Patience is more than a virtue—it’s a strategy! Our $JUG holders taught us that in DeFi, slow and steady doesn’t just win the race, it builds a better track for everyone."
+A younger Bera chimed in, "Patience is more than a virtue—it’s a strategy! Slow and steady doesn’t just win the race; it builds a better track for everyone."
 
-The elixir of their collective wisdom seemed to shimmer in the morning air. But the most profound lesson came from the eldest Bera, who had watched their dream grow from a tiny ripple to a tidal wave of change.
+The eldest Bera, who had watched their dream grow from a ripple to a tidal wave, shared the final insight. "Our greatest lesson is this: the future is not set in stone but fluid like water. We must adapt, flow around obstacles, and carve new paths when necessary. Our journey doesn’t end here—it’s just beginning."
 
-"My dear Beras," the elder said, their voice soft yet filled with conviction, "our greatest lesson is this: the future is not set in stone, but fluid like water. We must be ready to adapt, to flow around obstacles, to carve new paths when necessary. Our journey doesn’t end here—it’s only just beginning."
+As the sun climbed higher, warming the lagoon, the Beras realized their true gift wasn’t just an innovative model or successful launch. It was the spirit of curiosity, the courage to challenge the status quo, and the commitment to creating a fairer, more sustainable DeFi ecosystem.
 
-As the sun climbed higher, casting its warm glow across the lagoon, our Beras realized that the true elixir they carried wasn’t just their innovative model or successful launch. It was the spirit of curiosity, the courage to challenge the status quo, and the commitment to creating a fairer, more sustainable DeFi ecosystem for all.
+They had returned with more than just lessons—they brought back hope. Hope for a future where tokenomics could be a force for good, where communities could thrive, and where the rising tide of innovation lifts all boats.
 
-They had returned with more than just lessons—they had brought back hope. Hope for a future where tokenomics could be a force for good, where communities could thrive, and where the rising tide of innovation truly lifted all boats.
-
-And as for you, dear reader? Perhaps you too have been inspired to make your own splash in the world of DeFi. Remember the lessons of AquaBera, stay curious, be patient, and above all, never stop swimming toward your dreams.
+And as for you, dear reader? Perhaps you too have been inspired to make your own splash in the world of DeFi. Remember the lessons of AquaBera, stay curious, be patient, and never stop swimming toward your dreams.
 
 For in the end, we're all just Beras in a great big digital ocean, trying to make waves that matter. 🌊🐻💖
