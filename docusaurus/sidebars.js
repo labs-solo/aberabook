@@ -226,8 +226,13 @@ const sidebars = {
       items: [
         {
           type: 'doc',
-          id: 'community/tokenomics/introduction',
-          label: 'Introduction to AquaBera Tokenomics',
+          id: 'community/tokenomics/tokenomics',
+          label: 'AquaBera Tokenomics Story',
+        },
+        {
+          type: 'doc',
+          id: 'community/tokenomics/tokenomics-tldr',
+          label: 'TL;DR of AquaBera Tokenomics',
         },
         {
           type: 'doc',
@@ -238,6 +243,23 @@ const sidebars = {
           type: 'doc',
           id: 'community/tokenomics/benefits-and-implications',
           label: 'Benefits and Implications',
+        },
+      ],
+    },
+    {
+      type: 'category',
+      collapsed: false,
+      label: '🤝 Partners',
+      items: [
+        {
+          type: 'doc',
+          id: 'community/partners/amplifi',
+          label: 'Amplifi',
+        },
+        {
+          type: 'doc',
+          id: 'community/partners/aegis',
+          label: 'Aegis',
         },
       ],
     },
