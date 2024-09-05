@@ -9,7 +9,7 @@ const config = {
   title: 'AquaBera Documentation',
   tagline: 'Automate and optimize your crypto liquidity provision with AquaBera.',
   url: 'https://labs-solo.github.io',
-  baseUrl: '/aberabook/',
+  baseUrl: '/',
   onBrokenLinks: 'warn', // replace with 'throw' to stop building if broken links
   onBrokenMarkdownLinks: 'warn',
   favicon: 'https://aquabera.com/assets/favicon-32x32.png',
