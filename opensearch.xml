@@ -4,8 +4,8 @@
   <ShortName>AquaBera Documentation</ShortName>
   <Description>Search AquaBera Documentation</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://labs-solo.github.io/aberabook/https://aquabera.com/assets/favicon-32x32.png</Image>
-  <Url type="text/html" method="get" template="https://labs-solo.github.io/aberabook/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://labs-solo.github.io/aberabook/opensearch.xml" />
-  <moz:SearchForm>https://labs-solo.github.io/aberabook/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://labs-solo.github.io/https://aquabera.com/assets/favicon-32x32.png</Image>
+  <Url type="text/html" method="get" template="https://labs-solo.github.io/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://labs-solo.github.io/opensearch.xml" />
+  <moz:SearchForm>https://labs-solo.github.io/</moz:SearchForm>
 </OpenSearchDescription>
