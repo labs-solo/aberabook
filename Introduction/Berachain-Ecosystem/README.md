@@ -1,4 +1,4 @@
-# .
+# Berachain-Ecosystem
 
 ## Overview
 

@@ -1,4 +1,4 @@
-# .
+# snippets-proxy
 
 ## Overview
 

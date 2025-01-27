@@ -1,4 +1,4 @@
-# .
+# Bug-Bounty-Program
 
 ## Overview
 

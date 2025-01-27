@@ -1,4 +1,4 @@
-# .
+# Key-Tips-for-First-Time-Users
 
 ## Overview
 

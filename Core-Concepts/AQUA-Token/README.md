@@ -1,4 +1,4 @@
-# .
+# AQUA-Token
 
 ## Overview
 

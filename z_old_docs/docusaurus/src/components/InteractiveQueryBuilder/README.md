@@ -1,4 +1,4 @@
-# .
+# InteractiveQueryBuilder
 
 ## Overview
 

@@ -1,4 +1,4 @@
-# .
+# SideBySideContainer
 
 ## Overview
 

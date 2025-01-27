@@ -1,4 +1,4 @@
-# .
+# Partner-FAQs
 
 ## Overview
 

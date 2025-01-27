@@ -1,4 +1,4 @@
-# .
+# ISSUE_TEMPLATE
 
 ## Overview
 

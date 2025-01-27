@@ -1,4 +1,4 @@
-# .
+# Smart-Contract-Architecture
 
 ## Overview
 

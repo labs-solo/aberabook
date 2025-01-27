@@ -1,4 +1,4 @@
-# .
+# Social-Media-Channels
 
 ## Overview
 

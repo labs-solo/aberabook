@@ -1,4 +1,4 @@
-# .
+# How-Integration-Works
 
 ## Overview
 

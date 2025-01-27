@@ -1,4 +1,4 @@
-# .
+# Why-Bribe-Berachain-Validators
 
 ## Overview
 

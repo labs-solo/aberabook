@@ -1,4 +1,4 @@
-# .
+# Launching-Meme-Token
 
 ## Overview
 

@@ -1,4 +1,4 @@
-# .
+# tokenomics
 
 ## Overview
 
